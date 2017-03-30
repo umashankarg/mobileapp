@@ -16,7 +16,8 @@ namespace App1
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
+            MobileCenter.Start("a0896518-f63a-419d-83eb-78983518c82d",
+typeof(Analytics), typeof(Crashes));
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
